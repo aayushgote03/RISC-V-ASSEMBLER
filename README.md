@@ -1,6 +1,6 @@
 # 🚀 RISC-V Assembly to 32-bit Machine Code Converter
 
-![RISC-V Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RISC-V-logo.png/600px-RISC-V-logo.png)
+![RISC-V Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Friscvarchive&psig=AOvVaw3BajnW2PdVc7sURqWTSQ3X&ust=1727766594729000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID74KmO6ogDFQAAAAAdAAAAABAE)
 
 ## 🛠 Project Overview
 
