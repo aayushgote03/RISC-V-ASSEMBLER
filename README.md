@@ -32,3 +32,21 @@ sub x0, x1, x3     // R-type: Subtraction
 addi x2, x1, 10    // I-type: Immediate addition
 beq x1, x2, 8      // B-type: Branch if equal
 jal x1, 16         // J-type: Jump and link
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+To run this project, you'll need:
+
+- A C++ compiler (e.g., `g++`, `clang++`)
+- Basic understanding of RISC-V architecture
+
+### Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/risc-v-assembler.git
+
