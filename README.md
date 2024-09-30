@@ -29,10 +29,15 @@ Here’s a quick look at how the program processes assembly code and converts it
 ```cpp
 add x1, x2, x3     // R-type: Addition
 sub x0, x1, x3     // R-type: Subtraction
-addi x2, x1, 10    // I-type: Immediate addition
-beq x1, x2, 8      // B-type: Branch if equal
-jal x1, 16         // J-type: Jump and link
 ```
+```output
+Assembly: add x1, x2, x3
+Machine Code: 00000000001100010000000010110011
+
+Assembly: sub x0, x1, x3
+Machine Code: 01000000001100010000000010110011
+```
+
 
 ## 🚀 Getting Started
 
@@ -75,4 +80,9 @@ git clone https://github.com/yourusername/risc-v-assembler.git
     ```bash
     ./risc_v_assembler
     ```
+## 🌟 Contributing
 
+Contributions are welcome! If you have suggestions for new features, improvements, or bug fixes, feel free to:
+
+- Open an issue to discuss your ideas.
+- Submit a pull request with your changes.
