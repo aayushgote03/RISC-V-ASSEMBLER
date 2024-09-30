@@ -49,4 +49,30 @@ To run this project, you'll need:
 
 ```bash
 git clone https://github.com/yourusername/risc-v-assembler.git
+```
+### Installation
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/yourusername/risc-v-assembler.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd risc-v-assembler
+    ```
+
+3. Compile the program:
+
+    ```bash
+    g++ -o risc_v_assembler main.cpp
+    ```
+
+4. Run the executable:
+
+    ```bash
+    ./risc_v_assembler
+    ```
 
