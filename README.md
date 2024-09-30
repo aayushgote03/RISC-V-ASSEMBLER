@@ -1,1 +1,34 @@
-# RISC-V-ASSEMBLER
+# 🚀 RISC-V Assembly to 32-bit Machine Code Converter
+
+![RISC-V Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RISC-V-logo.png/600px-RISC-V-logo.png)
+
+## 🛠 Project Overview
+
+Welcome to **RISC-V Assembly to 32-bit Machine Code Converter**! This project is a **C++ program** that converts **RISC-V assembly code** into **32-bit machine code**. It supports various instruction formats like **R-type**, **I-type**, **B-type**, and **J-type**, making it a great resource for anyone looking to understand RISC-V architecture at a deeper level.
+
+This tool can encode basic operations such as:
+- **Addition** (`add`)
+- **Subtraction** (`sub`)
+- **Logical Operations** (`and`, `or`, `xor`)
+- **Immediate Operations** (`addi`, `andi`, `ori`, `xori`)
+- **Branching** (`beq`, `bne`, `blt`, `bge`)
+- **Jumping** (`jal`, `jalr`)
+- **Memory Access** (`lw`, `sw`, `lb`, `sb`)
+
+## 🔑 Key Features
+
+- **Supports RISC-V Instruction Set**: Handles R-type, I-type, B-type, and J-type instructions.
+- **Instruction to Binary Encoding**: Converts human-readable assembly instructions into machine code.
+- **Flexible Input**: Modify the input assembly lines in the `main()` function to test different instructions.
+- **Readable Output**: Displays both the assembly code and its equivalent machine code.
+
+## 🖥 Example Usage
+
+Here’s a quick look at how the program processes assembly code and converts it to machine code:
+
+```cpp
+add x1, x2, x3     // R-type: Addition
+sub x0, x1, x3     // R-type: Subtraction
+addi x2, x1, 10    // I-type: Immediate addition
+beq x1, x2, 8      // B-type: Branch if equal
+jal x1, 16         // J-type: Jump and link
